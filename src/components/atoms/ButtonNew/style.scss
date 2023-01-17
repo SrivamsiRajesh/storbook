@@ -1,0 +1,44 @@
+
+.zn-button {
+font-size: 13px;
+ font-weight: 400;
+ font-style: normal;
+ border-radius: 10px;
+ padding: 14px 68px;
+  // Button Variants | From ButtonNew.propTypes.variant (filled/outlined)
+}
+.zn-button-filled {
+    border: none;;
+
+  }
+  .zn-button-outlined {
+    background: none !important;
+  }
+
+  // Button colors | From ButtonNew.propTypes.color (primary/auto based on theme)
+  .zn-button-color-primary {
+    border-color: red;
+    background-color: red;
+  }
+  
+
+
+//a.primary {
+//  background-color: $background-color_1;
+//  color: $color_1;
+//  font-family: $font-family_1;
+//  font-size: 13px;
+//  font-weight: 400;
+//  font-style: normal;
+//  text-decoration: none;
+//  padding: 14px 68px;
+//  border: 0px solid #000;
+//  border-radius: 17px;
+//  display: inline-block;
+//  &:hover {
+//    background-color: $background-color_2;
+//  }
+//  &:active {
+//    transform: scale(0.95);
+//  }
+//}
